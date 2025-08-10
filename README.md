@@ -77,7 +77,7 @@ yarn ios
 ---
 
 ## 📸 Screenshots
-![Login Screen](https://github.com/Amsath/ReactNativeAuth/blob/main/ReactNativeAuth1.png) ![Signup Screen](https://github.com/Amsath/ReactNativeAuth/blob/main/ReactNativeAuth2.png) ![Home Screen](https://github.com/Amsath/ReactNativeAuth/blob/main/ReactNativeAuth3.png)
+![Login Screen](/ReactNativeAuth1.png) ![Signup Screen](/ReactNativeAuth2.png) ![Home Screen](/ReactNativeAuth3.png)
 
 📌 License
 This project is licensed under the MIT License - feel free to use it in your own projects.
