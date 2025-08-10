@@ -31,25 +31,18 @@ A React Native app built from scratch that implements **Login**, **Signup**, and
 ---
 
 ## 📂 Folder Structure
-📦 ReactNativeAuth
-├── 📁 src
-│ ├── 📁 contexts
-│ │ └── AuthContext.tsx      # Authentication state & methods
-│ ├── 📁 screens
-│ │ ├── LoginScreen.tsx      # Login form with email & password
-│ │ ├── SignupScreen.tsx     # Signup form with name, email & password
-│ │ └── HomeScreen.tsx       # Shows user info & logout
-│ ├── 📁 navigation
-│ │ └── AppNavigator.tsx     # Stack navigation for auth & app flow
-│ ├── 📁 components
-│ │ └── PrimaryButton.tsx
-| | └── FormInput.tsx 
-| ├── 📁 utils/
-│    └── validators.ts       # Email & password validation helpers
-├── App.tsx
-├── package.json
-├── tsconfig.json
-└── README.md
+src/
+ ├── contexts/
+ │    └── AuthContext.tsx     # Authentication state & methods
+ ├── screens/
+ │    ├── LoginScreen.tsx     # Login form with email & password
+ │    ├── SignupScreen.tsx    # Signup form with name, email & password
+ │    └── HomeScreen.tsx      # Shows user info & logout
+ ├── navigation/
+ │    └── RootNavigator.tsx   # Stack navigation for auth & app flow
+ ├── utils/
+ │    └── validators.ts       # Email & password validation helpers
+ App.tsx                      # Entry point
 
 ---
 
@@ -81,8 +74,10 @@ yarn android
 # iOS
 yarn ios
 
+---
+
 ## 📸 Screenshots
-![alt text](ReactNativeAuth3.png) ![alt text](ReactNativeAuth2.png) ![alt text](ReactNativeAuth1.png)
+![Login Screen](https://github.com/Amsath/ReactNativeAuth/blob/main/ReactNativeAuth1.png) ![Signup Screen](https://github.com/Amsath/ReactNativeAuth/blob/main/ReactNativeAuth2.png) ![Home Screen](https://github.com/Amsath/ReactNativeAuth/blob/main/ReactNativeAuth3.png)
 
 📌 License
 This project is licensed under the MIT License - feel free to use it in your own projects.
